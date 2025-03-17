@@ -1,10 +1,6 @@
-Here’s a well-structured and professional **README.md** file for your project, tailored to your requirements. Replace placeholders like `Your Name` and `yourusername` with your actual details.
-
----
-
 # 📚 Personal Library Manager 📚
 
-Welcome to the **Personal Library Manager**, created by **Your Name**! This is a simple command-line tool designed to help you manage your book collection. With this program, you can add, remove, search, and view statistics about your books. The library is automatically saved to a file (`library.txt`) and loaded when you restart the program.
+Welcome to the **Personal Library Manager**, created by **Wajahat Ali**! This is a simple command-line tool designed to help you manage your book collection. With this program, you can add, remove, search, and view statistics about your books. The library is automatically saved to a file (`library.txt`) and loaded when you restart the program.
 
 ---
 
@@ -30,7 +26,7 @@ Welcome to the **Personal Library Manager**, created by **Your Name**! This is a
 2. **Run the Program**:
    Ensure Python is installed on your system. Then run:
    ```bash
-   python library.py
+   python library-manager.py
    ```
 
 ---
@@ -39,7 +35,7 @@ Welcome to the **Personal Library Manager**, created by **Your Name**! This is a
 
 1. Run the program using the command:
    ```bash
-   python library.py
+   python library-manager.py
    ```
 
 2. Follow the menu prompts to interact with your library:
@@ -53,32 +49,20 @@ Welcome to the **Personal Library Manager**, created by **Your Name**! This is a
 Below is an example interaction with the program:
 
 ```plaintext
-D:\library-manager>python library.py
 🌟 Welcome to your Personal Library Manager! 🌟
 
 📋 Menu:
-1. ➕ Add a book        
-2. ➖ Remove a book     
-3. 🔍 Search for a book
-4. 📚 Display all books
-5. 📊 Display statistics
-6. 🚪 Exit
-👉 Enter your choice: 5
-
-📊 No books in the library. Add some books! 📊
-
-📋 Menu:
 1. ➕ Add a book
-2. ➖ Remove a book
-3. 🔍 Search for a book
-4. 📚 Display all books
+2. ➖ Remove a book      
+3. 🔍 Search for a book 
+4. 📚 Display all books 
 5. 📊 Display statistics
 6. 🚪 Exit
 👉 Enter your choice: 1
-📝 Enter the book title: The Great Gatsby
-🖋️ Enter the author:  F. Scott Fitzgerald
-📅 Enter the publication year: 1925
-🎭 Enter the genre: Fiction
+📝 Enter the book title: Harry Potter and the Philosopher's Stone
+🖋️ Enter the author:  J.K. Rowling                            
+📅 Enter the publication year: 1997
+🎭 Enter the genre: Fantasy
 ✅ Have you read this book? (yes/no): yes
 🎉 Book added successfully! 🎉
 
@@ -90,11 +74,26 @@ D:\library-manager>python library.py
 5. 📊 Display statistics
 6. 🚪 Exit
 👉 Enter your choice: 1
-📝 Enter the book title: 1984
-🖋️ Enter the author:  George Orwell
-📅 Enter the publication year: 1949
-🎭 Enter the genre: Dystopian
+📝 Enter the book title: The Name of the Wind
+🖋️ Enter the author:   Patrick Rothfuss
+📅 Enter the publication year: 2007
+🎭 Enter the genre: Fantasy 
 ✅ Have you read this book? (yes/no): no
+🎉 Book added successfully! 🎉
+
+📋 Menu:
+1. ➕ Add a book
+2. ➖ Remove a book
+3. 🔍 Search for a book
+4. 📚 Display all books
+5. 📊 Display statistics
+6. 🚪 Exit
+👉 Enter your choice: 1
+📝 Enter the book title: Basti
+🖋️ Enter the author:  Intizar Husain
+📅 Enter the publication year: 1979
+🎭 Enter the genre: Fiction
+✅ Have you read this book? (yes/no): yes
 🎉 Book added successfully! 🎉
 
 📋 Menu:
@@ -107,8 +106,9 @@ D:\library-manager>python library.py
 👉 Enter your choice: 4
 
 📚 Your Library: 📚
-1. The Great Gatsby by F. Scott Fitzgerald (1925) - Fiction - 📖 Read
-2. 1984 by George Orwell (1949) - Dystopian - ❌ Unread
+1. Harry Potter and the Philosopher's Stone by J.K. Rowling (1997) - Fantasy - 📖 Read
+2. The Name of the Wind by Patrick Rothfuss (2007) - Fantasy - ❌ Unread
+3. Basti by Intizar Husain (1979) - Fiction - 📖 Read
 
 📋 Menu:
 1. ➕ Add a book
@@ -119,8 +119,18 @@ D:\library-manager>python library.py
 6. 🚪 Exit
 👉 Enter your choice: 5
 
-📊 Total books: 2
-📊 Percentage read: 50.0% 📊
+📊 Total books: 3
+📊 Percentage read: 66.67% 📊
+
+📋 Menu:
+1. ➕ Add a book
+2. ➖ Remove a book
+3. 🔍 Search for a book
+4. 📚 Display all books
+5. 📊 Display statistics
+6. 🚪 Exit
+👉 Enter your choice: 6
+💾 Library saved to file. Goodbye! 👋
 ```
 
 ---
@@ -131,8 +141,8 @@ D:\library-manager>python library.py
 library-manager/
 │
 ├── library-manager.py     # Main Python script for the library manager
-├── library.txt     # File to store the library data (automatically created)
-└── README.md       # Instructions and notes about the project
+├── library.txt            # File to store the library data (automatically created)
+└── README.md              # Instructions and notes about the project
 ```
 
 ---
