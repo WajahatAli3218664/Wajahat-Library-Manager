@@ -19,7 +19,7 @@ Welcome to the **Personal Library Manager**, created by **Wajahat Ali**! This is
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/library-manager.git
+   git clone https://github.com/WajahatAli3218664/Wajahat-Library-Manager
    cd library-manager
    ```
 
