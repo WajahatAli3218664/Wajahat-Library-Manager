@@ -7,14 +7,23 @@ def load_library():
     if os.path.exists("library.txt"):
         with open("library.txt", "r") as file:
             for line in file:
-                title, author, year, genre, read_status = line.strip().split("|")
-                library.append({
-                    "title": title,
-                    "author": author,
-                    "year": int(year),
-                    "genre": genre,
-                    "read_status": read_status == "True"
-                })
+                # Strip whitespace and skip empty lines
+                line = line.strip()
+                if not line:  # Skip empty lines
+                    continue
+                # Split the line into components
+                parts = line.split("|")
+                if len(parts) == 5:  # Ensure the line has exactly 5 parts
+                    title, author, year, genre, read_status = parts
+                    library.append({
+                        "title": title,
+                        "author": author,
+                        "year": int(year),
+                        "genre": genre,
+                        "read_status": read_status == "True"
+                    })
+                else:
+                    print(f"⚠️ Skipping invalid line in library.txt: {line}")
     else:
         # Create an empty file if it doesn't exist
         with open("library.txt", "w") as file:
