@@ -1,0 +1,10 @@
+The Book Thief|Markus Zusak|2005|Historical Fiction|True
+The Great Gatsby|F. Scott Fitzgerald|1925|Fiction|True
+Sapiens: A Brief History of Humankind|Yuval Noah Harari|2011|Non Fiction|True
+Atomic Habits|James Clear|2018|Self-Help|False
+The Girl with the Dragon Tattoo|Stieg Larsson|2005|Mystery|True
+The Da Vinci Code|Dan Brown|2003|Mystery|True
+Harry Potter and the Philosopher's Stone|J.K. Rowling|1997|Fantasy|True
+The Name of the Wind|Patrick Rothfuss|2007|Fantasy|False
+Basti|Intizar Husain|1979|Fiction|True
+Aag Ka Darya (River of Fire)|Qurratulain Hyder|1959|Historical Fiction|True

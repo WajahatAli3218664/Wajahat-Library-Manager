@@ -3,6 +3,7 @@ import os
 # 📂 Function to load library from file
 def load_library():
     library = []
+    # Check if the file exists
     if os.path.exists("library.txt"):
         with open("library.txt", "r") as file:
             for line in file:
@@ -14,6 +15,10 @@ def load_library():
                     "genre": genre,
                     "read_status": read_status == "True"
                 })
+    else:
+        # Create an empty file if it doesn't exist
+        with open("library.txt", "w") as file:
+            print("Intialized an empty 'library.txt' file.")
     return library
 
 # 💾 Function to save library to file
@@ -95,6 +100,7 @@ def display_statistics(library):
 # 🌟 Main function
 def main():
     print("🌟 Welcome to your Personal Library Manager! 🌟\n")
+    # Load the library and create library.txt if it doesn't exist
     library = load_library()
     while True:
         print("📋 Menu:")
